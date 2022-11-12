@@ -1,0 +1,172 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+Python is a highlevel programmimg language because it is in layman language and the compiler convert this in to 0 and 1 which can be understand by computer.
+
+
+Q2. Why is Python called a dynamically typed language?
+Because there is no need to do variable declaration in python.The Python itself interprets the variable
+Eg:a=10
+
+
+Q3. List some pros and cons of Python programming language?
+Prons:
+Easy to learn
+Doesn’t need to remember syntax unlike for other languages
+Robust
+
+Cons:
+Not too strong in mobile computing
+Speed limitations
+
+Q4. In what all domains can we use Python?
+In all domains we can use python especially in big data .
+Q5. What are variable and how can we declare them?
+Variable is a name given to a memory location.
+A=10
+
+Q6. How can we take an input from the user in Python?
+Input(“The first number: “,a)
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+integer
+Q8. What is type casting?
+Type casting means we can convert the data type of one variable in to another
+Eg:a=10
+Type(a) ---- INT
+A_changed=float(a)
+Type(A_changed)---Float
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Yes
+A,B=input(“Take the two numbers”).split()
+Print(format(a,b))
+
+Q10. What are keywords?
+Keywords are reserved keys that has special meaning and purpose.
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+No.
+Eg:True,False
+This can be used when we do logical operations and functions it itself has a special meaning
+
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Spaces in the beginning of a code 
+Indentation is used to know beginning and end  of a code.
+
+
+Q13. How can we throw some output in Python?
+S=a+b;
+Print(“the output is”,S)
+
+
+Q14. What are operators in Python?
+Operators are operations to do performance on variables.
+
+Q15. What is difference between / and // operators?
+/--eg:15/2 it gives 7.5
+//-7 only as output
+
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```x = 'ineuron'
+
+print(x * 5)
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+A=10
+B=5
+If(A%B==0):
+	print(“it is even”)
+Else:
+	Print(“it is odd”)
+
+
+Q18. What are boolean operator?
+To check if the variable is true or false
+
+
+Q19. What will the output of the following?
+```
+1 or 0 --1
+
+0 and 0--0
+
+True and False and True--0
+
+1 or 0 or 0--1
+```
+
+Q20. What are conditional statements in Python
+Conditional statements helps you to make a decision based on certain condition.
+
+
+
+ 
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+If(a==5): 
+       True
+Elif(a==6): 
+       True
+Else:
+        False—it checks if a comes under 5 and 6 then true otherwise false
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+A=50
+If(A>=18):
+	Print(“"I can vote".)
+If(A<18):
+	Print(“"I can’t vote".)	
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+sum = 0
+
+for i in range(7):
+    if numbers [i]%2 == 0:
+        sum = sum + numbers [i]
+
+print("\nSum of Even Numbers is", sum)
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+A=input(“first_number”,a)
+B=input(“Second_number”,b)
+
+C=input(“Third_number”,c)
+
+If((A>B)&(A>C)):
+	Print(“The biggest_number is”,A)
+If((B>A)&(B>C)):
+	Print(“The biggest_number is”,B)
+If((C>A)&(C>B)):
+	Print(“The biggest_number is”,C)
+
+
+
+
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for num in numbers: 
+	if num % 5 == 0: 
+		print(num)
+	if(num>150):
+		continue
+	if(num>500):
+		break	
+
+
+```
